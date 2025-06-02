@@ -24,7 +24,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
 import com.example.demofooddelivery.R
-import com.example.demofooddelivery.data.ProductHighlightState
+import com.example.demofooddelivery.data.ProductNutritionState
 import com.example.demofooddelivery.data.ProductPreviewState
 import com.example.demofooddelivery.ui.theme.AppTheme
 
@@ -136,7 +136,7 @@ private fun CloseButton(
 
 @Composable
 private fun ProductBackground(
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
 ) {
     Box(
         modifier = modifier
